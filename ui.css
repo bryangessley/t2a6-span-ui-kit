@@ -1,0 +1,63 @@
+:root {
+    --primary-color: #5e47D2;
+    --primary-border-color: #bcb0f5 ;
+    --primary-bg-color: #f7f5ff;
+
+    /* restante das cores */
+    --danger-color: #a82525;
+    --danger-border-color: #e2b6b6;
+    --danger-bg-color: #ffe8e8;
+
+    --success-color: #21725e;
+    --success-border-color: #b5d0c9;
+    --success-bg-color: #e7faf5;
+
+}
+
+/* Componentes */
+
+/* Tags */
+.tag{
+    padding: 8px;
+    border-radius: 50px;
+    background-color: var(--bg-default);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.tag-primary {
+    background-color: var(--primary-bg-color);
+    border: 1px solid var(--primary-border-color);
+    color: var(--primary-color);
+}
+
+.tag-danger {
+    background-color: var(--danger-bg-color);
+    border: 1px solid var(--danger-border-color);
+    color: var(--danger-color);
+}
+
+.tag-success{
+    background-color: var(--success-bg-color);
+    border: 1px solid var(--success-border-color);
+    color: var(--success-color);
+}
+
+.pseudo:hover {
+    background-color: var(--success-color);
+    color: var(--success-bg-color);
+}
+
+.lista-ranking li {
+    color: #2b2b2b;
+}
+
+.lista-ranking li:first-child {
+    font-weight: bold;
+    color: #d4af37;
+    font-size: 18px;
+}
+
+.lista-ranking li:last-child {
+    font-style: italic;
+}
