@@ -11,13 +11,12 @@
     --success-color: #21725e;
     --success-border-color: #b5d0c9;
     --success-bg-color: #e7faf5;
-
 }
 
 /* Componentes */
 
 /* Tags */
-.tag{
+.tag {
     padding: 8px;
     border-radius: 50px;
     background-color: var(--bg-default);
